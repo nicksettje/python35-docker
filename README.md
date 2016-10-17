@@ -8,6 +8,12 @@
 sudo
 vim
 ```
+* Edit `pip-packages.txt` so it contains one pip package per line, e.g. 
+```
+numpy
+scipy
+```
 * Build the Docker image: `docker-compose build`
 * Start the Docker container: `docker-compose up -d`
 * Attach to the running container: `docker exec -i -t python_python_1 bash` 
+* Note: Any edits you make to files in the `/python` directory in the container will be reflected in the cloned folder on the host
