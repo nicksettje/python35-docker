@@ -1,4 +1,4 @@
-# Python 2.7 Docker Environment
+# Python 3.5 Docker Environment
 ## Installation
 * Install [Docker Compose](https://docs.docker.com/compose/install/)
 * Start a new [Docker Machine](https://docs.docker.com/machine/get-started/)
