@@ -1,0 +1,8 @@
+version: '2'
+services:
+    python:
+        build: .
+        image: python:dev
+        volumes:
+        - "./:/python"
+        command: tail -F anything
